@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(73, 45, 255);
+    
+}
+input{
+    padding: 0.4em;
+    border-radius: 0.4em;
+    border:1px solid black;
+    width:60%;
+}
+input:focus{
+    outline: none;
+}
+h2{
+    padding-top: 3em;;
+}
+#searchButton{
+    padding: 0.4em;
+    border: none;
+    border-radius:0.4em;
+}
+input::placeholder{
+    font-size: smaller;
+}
+#mainSection{
+    background: white;
+    height:30em;
+    text-align: center;
+    border-radius: 0.6em;
+    margin-bottom:5em;
+}
+footer{
+    text-align: center;
+    color:white;
+    font-size: medium;
+    font-weight: 600;
+    font-variant: small-caps;
+}
